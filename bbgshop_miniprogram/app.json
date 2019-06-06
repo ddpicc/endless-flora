@@ -53,7 +53,7 @@
     "backgroundTextStyle": "dark",
     "navigationBarBackgroundColor": "#fff",
     "enablePullDownRefresh": false,
-    "navigationBarTitleText": "德威商城·乐家家国际超市",
+    "navigationBarTitleText": "无束 Endless Flora",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
@@ -92,5 +92,6 @@
     "request": 10000,
     "downloadFile": 10000
   },
-  "debug": true
+  "debug": true,
+  "sitemapLocation": "sitemap.json"
 }

@@ -176,7 +176,7 @@ Page({
 
 
   },
-  JumpUrl(e){
+  /*JumpUrl(e){
     let id = e.currentTarget.dataset.url
     util.request(api.getchildrenCategoryIdByFather,{
       id:id
@@ -191,7 +191,7 @@ Page({
         complete: function (res) { },
       })
     })
-  },
+  },*/
   // onshowaction() {
   // this.checkauth('1')
   // },

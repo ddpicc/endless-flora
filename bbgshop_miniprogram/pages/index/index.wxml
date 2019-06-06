@@ -13,6 +13,7 @@
       <text class="txt">商品搜索, 共{{goodsCount}}款好物</text>
     </navigator>
   </view>
+  <!-- 注释掉图片分类
   <view class="icon_bar">
     <view class="icon_bar_item" bindtap='JumpUrl' data-url='{{item.category_id}}' wx:for="{{channel}}" wx:key="{{item.id}}">
       <image  lazy-load class='icon_bar_img' src="{{item.icon_url}}"></image>
@@ -25,6 +26,7 @@
       <text>{{item.name}}</text>
     </navigator>
   </view> -->
+  <!--   注释掉抽奖，暂时不需要抽奖
   <view class="currency_title_view_title_area" wx:if="{{luckdraw.length > 0}}">
     <view class="currency_title_view_title_area_h">
       抽奖
@@ -64,7 +66,8 @@
       </view>
     </scroll-view>
   </view>
-
+  -->
+  <!--   注释掉拼团，暂时不需要拼团
     <view class="currency_title_view_title_area" wx:if="{{collage.length > 0}}">
     <view class="currency_title_view_title_area_h">
       拼团
@@ -98,6 +101,7 @@
       </view>
     </scroll-view>
   </view>
+  -->
 
 
   <view class="currency_title_view_title_area" style='margin-top:10rpx;' wx:key="{{item.id}}" wx:if="{{newGoods.length > 0}}">
@@ -165,7 +169,7 @@
     <!-- </view> -->
   </view>
   <view class='comy_tip comy_tip_btn'>您已经到底啦 ~ </view>
-  <view class='comy_tip comy_tip_btn'>贝堡网络 提供技术支持</view>
+  <view class='comy_tip comy_tip_btn'>潜水艇文化传播 提供技术支持</view>
 </scroll-view>
 <!-- <image class='back_to_top' src="../../image/top.png" bindtap='back_to_top'></image>  -->
 <!-- <button class='shall_buttom' wx:if="{{scrollTop > 422}}" open-type="share" wx:if="{{auth && isdistribution}}">
